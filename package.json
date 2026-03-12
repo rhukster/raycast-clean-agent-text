@@ -2,14 +2,14 @@
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "clean-agent-text",
   "title": "Clean Agent Text",
-  "description": "Cleans text copied from AI agent TUIs by removing box-drawing characters, pipes, and reformatting",
+  "description": "Cleans text copied from AI agent TUIs by removing box-drawing characters, pipes, leading blank spaces, and reformatting",
   "icon": "command-icon.png",
   "author": "rhuk",
   "categories": ["Productivity"],
   "license": "MIT",
   "commands": [
     {
-      "name": "cat",
+      "name": "clean",
       "title": "Clean Agent Text",
       "description": "Clean clipboard text from AI agent TUI artifacts",
       "mode": "no-view",

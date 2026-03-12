@@ -13,15 +13,15 @@ type ExtensionPreferences = {}
 declare type Preferences = ExtensionPreferences
 
 declare namespace Preferences {
-  /** Preferences accessible in the `cat` command */
-  export type Cat = ExtensionPreferences & {
+  /** Preferences accessible in the `clean` command */
+  export type Clean = ExtensionPreferences & {
   /** Mode - How to format the cleaned text */
   "mode": "auto" | "text" | "code"
 }
 }
 
 declare namespace Arguments {
-  /** Arguments passed to the `cat` command */
-  export type Cat = {}
+  /** Arguments passed to the `clean` command */
+  export type Clean = {}
 }
 
