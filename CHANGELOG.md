@@ -5,7 +5,7 @@
 - Read the clipboard's text slot explicitly so a file reference on the clipboard (common when copying from web pages on Windows) no longer gets pasted back as a filename
 - Show a clearer HUD message when the clipboard holds a file instead of text
 
-## [Initial Version] - {PR_MERGE_DATE}
+## [Initial Version] - 2026-04-15
 
 - Clean box-drawing characters from clipboard text
 - Strip pipe borders from AI agent TUI output
